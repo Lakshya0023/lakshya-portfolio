@@ -1,0 +1,126 @@
+// Edit your portfolio content here. Each project card and 3D landmark reads from this list.
+export const personal = {
+  name: 'Lakshya Gupta',
+  email: 'lakshyagupta5511@gmail.com',
+  github: 'https://github.com/Lakshya0023',
+  linkedin: 'https://www.linkedin.com/in/lakshya-gupta-894483432/',
+  resume: './Lakshya_Gupta_Resume.pdf',
+  location: 'Vellore, India',
+  college: 'VIT Vellore',
+  course: 'B.Tech CSE · Cybersecurity',
+  graduation: '2029',
+}
+
+// Five public GitHub projects + NIDS (from your resume; public repository not found).
+// Non-project GitHub repositories (your profile README and the currently empty DATABASE_PROJECT)
+// are not presented as completed builds.
+export const projects = [
+  {
+    number: '01',
+    id: 'gridsense',
+    title: 'GridSense',
+    eyebrow: 'AI / GRAPH NEURAL NETWORKS',
+    tagline: 'Predict the blackout before it happens.',
+    description: 'A power-grid intelligence system using graph neural networks to model cascading failures, pinpoint high-risk assets, and explore prevention scenarios.',
+    stack: ['Python', 'PyTorch', 'GAT', 'FastAPI', 'React'],
+    github: 'https://github.com/Lakshya0023/GRIDSENSE',
+    live: 'https://gridsense-ochre.vercel.app/',
+    accent: '#d8fc86',
+    stat: '~22K grid assets analyzed',
+    category: 'AI / ML',
+    filter: 'ai',
+  },
+  {
+    number: '02',
+    id: 'maintenance',
+    title: 'AI Maintenance Copilot',
+    eyebrow: 'INDUSTRIAL AI / AGENTIC WORKFLOWS',
+    tagline: 'From machine warnings to actionable repairs.',
+    description: 'An industrial fleet simulator and AI copilot combining failure-risk prediction, root-cause diagnosis, technician matching, and human-approved repairs.',
+    stack: ['Python', 'XGBoost', 'LangGraph', 'FastAPI', 'React'],
+    github: 'https://github.com/Lakshya0023/Autonomous-Human-AI-Maintenance-Copilot',
+    accent: '#ffc785',
+    stat: '4 machine types · 16 fault modes',
+    category: 'AI / ML',
+    filter: 'ai',
+  },
+  {
+    number: '03',
+    id: 'kubernetes',
+    title: 'Auto-Healing AI Agent',
+    eyebrow: 'AGENTIC AI / CLOUD ENGINEERING',
+    tagline: 'When cloud systems break, the agent gets to work.',
+    description: 'A policy-gated Kubernetes SRE agent that detects unhealthy workloads, analyzes logs and events, recommends fixes, and checks recovery.',
+    stack: ['Kubernetes', 'Python', 'LangGraph', 'Ollama', 'Docker'],
+    github: 'https://github.com/Lakshya0023/KUBERNETES-AUTO-HEALING-AI-DEVOPS--AGENT',
+    accent: '#afa6ff',
+    stat: 'Detect → Diagnose → Heal',
+    category: 'DEVOPS',
+    filter: 'cloud',
+  },
+  {
+    number: '04',
+    id: 'warehouse',
+    title: 'Warehouse & Supply Chain',
+    eyebrow: 'FULL STACK / DATABASE ENGINEERING',
+    tagline: 'Every product, order, and shipment connected.',
+    description: 'A multi-warehouse inventory platform with purchasing, sales, shipments, stock alerts, and transaction-safe stock adjustments.',
+    stack: ['Python', 'Flask', 'PostgreSQL', 'JavaScript', 'CSS'],
+    github: 'https://github.com/Lakshya0023/db_project',
+    live: 'https://dbproject-ten.vercel.app/',
+    accent: '#8cdecd',
+    stat: 'Inventory · Orders · Shipments',
+    category: 'FULL-STACK',
+    filter: 'fullstack',
+  },
+  {
+    number: '05',
+    id: 'bhoomiseva',
+    title: 'BhoomiSeva',
+    eyebrow: 'FULL-STACK / CIVIC TECH',
+    tagline: 'Land governance, made more accessible.',
+    description: 'A digital land-registry platform with interactive parcel maps, grievance tracking, flexible CSV ingestion, and ML-powered land-value forecasts.',
+    stack: ['Flask', 'Python', 'SQLite', 'D3.js', 'scikit-learn'],
+    github: 'https://github.com/Lakshya0023/DEBUGGERS_INNOHACK',
+    accent: '#ffb39b',
+    stat: 'InnoHack 2.0 · 2nd Runner-Up',
+    category: 'FULL-STACK',
+    filter: 'fullstack',
+  },
+  {
+    number: '06',
+    id: 'nids',
+    title: 'Network Intrusion Detection',
+    eyebrow: 'CYBERSECURITY / MACHINE LEARNING',
+    tagline: 'Making suspicious traffic impossible to ignore.',
+    description: 'A PCAP-based network threat monitor detecting port scans, brute-force patterns, and traffic anomalies in a React security dashboard.',
+    stack: ['Scapy', 'FastAPI', 'Isolation Forest', 'React', 'SQLite'],
+    github: null, // Add the public NIDS repo URL here after publishing it.
+    accent: '#8ce4ef',
+    stat: 'Threats · Alerts · Analytics',
+    category: 'SECURITY',
+    filter: 'security',
+  },
+]
+
+export const projectFilters = [
+  { id: 'all', label: 'ALL PROJECTS' },
+  { id: 'ai', label: 'AI & ML' },
+  { id: 'cloud', label: 'CLOUD / AGENTS' },
+  { id: 'fullstack', label: 'FULL STACK' },
+  { id: 'security', label: 'CYBERSECURITY' },
+]
+
+export const skillGroups = [
+  { number: '01', name: 'Languages', items: ['Python', 'Java', 'C++', 'C', 'HTML', 'CSS', 'JavaScript'] },
+  { number: '02', name: 'AI & Engineering', items: ['PyTorch', 'XGBoost', 'Scikit-learn', 'LangGraph', 'FastAPI', 'React'] },
+  { number: '03', name: 'Cloud & Tools', items: ['Kubernetes', 'Docker', 'Prometheus', 'Grafana', 'Git & GitHub'] },
+  { number: '04', name: 'Data & Fundamentals', items: ['PostgreSQL', 'MySQL', 'SQLite', 'DSA', 'DBMS', 'Computer Networks'] },
+]
+
+export const highlights = [
+  { rank: '02', suffix: 'nd RUNNER-UP', title: 'InnoHack 2.0', description: 'BhoomiSeva · Team DEBUGGERS' },
+  { rank: 'TOP 15', suffix: 'FINALIST', title: 'WeHack 5.0', description: 'Hackathon finalist team' },
+  { rank: 'TOP 15', suffix: 'FINALIST', title: 'VinHack', description: 'Hackathon finalist team' },
+  { rank: 'TOP 20', suffix: 'TEAMS', title: 'Hack Battle', description: 'Hackathon recognition' },
+]
