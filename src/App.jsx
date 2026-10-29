@@ -127,7 +127,7 @@ function Projects() {
     </div>
     <div className="project-grid" aria-live="polite">{visibleProjects.map((p,i)=><ProjectCard key={p.id} project={p} index={i}/>)}</div>
     <Reveal className="projects-end"><p>FROM EXPERIMENTS TO SYSTEMS — ALWAYS BUILDING WHAT'S NEXT.</p><a href={personal.github} target="_blank" rel="noreferrer">EXPLORE MY GITHUB REPOSITORIES <ArrowUpRight size={18}/></a></Reveal>
-    <div className="repo-note"><span className="repo-note-spark">✳</span><p><strong>A NOTE ABOUT THE ARCHIVE:</strong> My NIDS project is included from my resume (public GitHub link coming soon). The GitHub profile README and the empty <a href="https://github.com/Lakshya0023/DATABASE_PROJECT" target="_blank" rel="noreferrer">DATABASE_PROJECT ↗</a> repository aren't listed as separate finished projects.</p></div>
+    <div className="repo-note"><span className="repo-note-spark">✳</span><p><strong>A NOTE ABOUT THE ARCHIVE:</strong> Each featured project has a GitHub source link. The GitHub profile README and the empty <a href="https://github.com/Lakshya0023/DATABASE_PROJECT" target="_blank" rel="noreferrer">DATABASE_PROJECT ↗</a> repository aren't listed as separate finished projects.</p></div>
   </div></section>
 }
 

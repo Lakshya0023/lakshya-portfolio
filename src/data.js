@@ -95,7 +95,7 @@ export const projects = [
     tagline: 'Making suspicious traffic impossible to ignore.',
     description: 'A PCAP-based network threat monitor detecting port scans, brute-force patterns, and traffic anomalies in a React security dashboard.',
     stack: ['Scapy', 'FastAPI', 'Isolation Forest', 'React', 'SQLite'],
-    github: null, // Add the public NIDS repo URL here after publishing it.
+    github: 'https://github.com/Lakshya0023/NETWORK-INTRUSION-AI-BASED-THREAT-DETECTION-SYSTEM',
     accent: '#8ce4ef',
     stat: 'Threats · Alerts · Analytics',
     category: 'SECURITY',
